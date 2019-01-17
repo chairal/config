@@ -13,8 +13,8 @@ zipkin:
   collector:
     rabbitmq:
       addresses: paascloud-mq-rabbit:5672
-      username: guest
-      password: guest
+      username: root
+      password: root
       queue: zipkin
   storage:
     type: mysql
